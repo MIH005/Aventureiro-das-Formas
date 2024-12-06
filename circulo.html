@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Círculo - Explorador de Formas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Explorando o Círculo</h1>
+    </header>
+    <main>
+        <section class="form-info">
+            <img src="./assets/img/circulo.png" alt="Imagem de Círculo" class="form-img">
+            <p>O círculo é uma forma geométrica com todos os pontos equidistantes de um ponto central.</p>
+            <form id="calculo-area">
+                <label for="raio">Raio (em unidades):</label>
+                <input type="number" id="raio" required>
+                <button type="submit">Calcular Área</button>
+            </form>
+            <p id="resultado" class="result"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Explorador de Formas Geométricas</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
